@@ -1,0 +1,23 @@
+broadway-gnn/
+│
+├── data/
+│   ├── raw/
+│   │   ├── shows.csv
+│   │   ├── people.csv
+│   │   ├── credits.csv
+│   │   ├── theaters.csv
+│   │   └── revenues.csv
+│   │
+│   └── processed/
+│       └── graph_snapshots.pt
+│
+├── src/
+│   ├── build_graph.py
+│   ├── temporal_dataset.py
+│   ├── model.py
+│   ├── train.py
+│   ├── evaluate.py
+│   └── config.py
+│
+├── requirements.txt
+└── README.md
